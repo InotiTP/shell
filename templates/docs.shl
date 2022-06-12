@@ -1,0 +1,48 @@
+dynamic 
+{
+    menu(title='Website' image=[\uE249, #0ee] sep=after)
+    {
+        item(title='Icon List' cmd='https://nilesoft.org/gallery/glyphs')
+        item(title='Documentation' sep=after cmd='https://nilesoft.org/docs')
+        menu(title='Syntax')
+        {
+            item(title='Static' cmd='https://nilesoft.org/docs/syntax/variables')
+            item(title='Default' cmd='https://nilesoft.org/docs/syntax/default')
+            item(title='Static' cmd='https://nilesoft.org/docs/syntax/static')
+            item(title='Dynamic' cmd='https://nilesoft.org/docs/syntax/dynamic')
+        }
+        menu(title='Expressions'){
+            item(title='Comments' cmd='https://nilesoft.org/docs/expressions/comments')
+            item(title='String literal' cmd='https://nilesoft.org/docs/expressions/string-literal')
+            item(title='Numeric literal' cmd='https://nilesoft.org/docs/expressions/numeric-literal')	
+            item(title='Color literal' cmd='https://nilesoft.org/docs/expressions/ncolor-literal')
+            item(title='Operators' cmd='https://nilesoft.org/docs/expressions/operators')
+            item(title='Identifier' cmd='https://nilesoft.org/docs/expressions/identifier')
+        }
+
+        menu(title='Functions')
+        {
+            item(title='app' cmd='https://nilesoft.org/docs/functions/app')
+            item(title='appx' cmd='https://nilesoft.org/docs/functions/appx')
+            item(title='color' cmd='https://nilesoft.org/docs/functions/color')
+            item(title='image' cmd='https://nilesoft.org/docs/functions/image')
+            item(title='id' cmd='https://nilesoft.org/docs/functions/id')
+            item(title='this' cmd='https://nilesoft.org/docs/functions/this')
+            item(title='io' cmd='https://nilesoft.org/docs/functions/io')
+            item(title='key' cmd='https://nilesoft.org/docs/functions/key')
+            item(title='msg' cmd='https://nilesoft.org/docs/functions/msg')
+            item(title='path' cmd='https://nilesoft.org/docs/functions/path')
+            item(title='reg' cmd='https://nilesoft.org/docs/functions/reg')
+            item(title='sel' cmd='https://nilesoft.org/docs/functions/sel')
+            item(title='str' cmd='https://nilesoft.org/docs/functions/str')
+            item(title='sys' cmd='https://nilesoft.org/docs/functions/sys')
+            item(title='user' cmd='https://nilesoft.org/docs/functions/user')
+        }
+        menu(title='Examples'){
+            item(title='Copy path' cmd='https://nilesoft.org/docs/examples/copy-path')
+            item(title='Favorites' cmd='https://nilesoft.org/docs/examples/favorites')
+            item(title='Goto' cmd='https://nilesoft.org/docs/examples/goto')					
+        }
+
+    }
+}
